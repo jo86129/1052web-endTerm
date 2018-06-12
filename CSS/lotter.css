@@ -1,0 +1,79 @@
+body {
+    background: -webkit-linear-gradien(right, #d9afd9, #a6c1ee);
+    background: -o-linear-gradient(right, #d9afd9, #a6c1ee);
+    background: -moz-linear-gradient(right, #d9afd9, #a6c1ee);
+    background: linear-gradient(to right, #d9afd9, #a6c1ee);
+    position: relative;
+    left: 32px;
+    top: 20px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    width: 1300px;
+}
+#DivHead {
+    width: 550px;
+    float: left;
+}
+#DivTable table {
+    width: 400px;
+    float: right;
+    position: relative;
+    top: 35px;
+    right:40px;
+    font-size: 30px;
+}
+
+header img {
+    width: 126px;
+    height: 60px;
+}
+
+#head-img {
+    text-align: left;
+    float: left;
+}
+
+#head-p {
+    color: dimgrey;
+}
+a:link{
+    color:black;
+    text-decoration: none;
+}
+a:visited{
+    color:brown;
+}
+#photo{
+    position:relative;
+    top:10px;
+    clear: left;
+    float: left;
+}
+#rules{
+    position:relative;
+    top:10px;
+    right: 50px;
+    width: 600px;
+    text-align: left;
+    font-size: 14px;
+    clear: right;
+    float: right;
+    border:5px solid;
+    border-radius: 6px;
+    border-color: white;
+    background-color: rgba(255,255,255,0.5);
+}
+#joinme{
+    position: relative;
+    top: 40px;
+    float: left;
+    background-color: rgba(227, 227, 156,0.5);
+    border-radius: 6px;
+    width:200px;
+    height:50px;
+    font-size: 20px;
+    
+}
+#photo img{
+    border-radius: 10px;
+}

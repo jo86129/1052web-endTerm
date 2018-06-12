@@ -1,0 +1,262 @@
+div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: -webkit-linear-gradien(right, #d9afd9, #a6c1ee);
+	background: -o-linear-gradient(right, #d9afd9, #a6c1ee);
+	background: -moz-linear-gradient(right, #d9afd9, #a6c1ee);
+	background: linear-gradient(to right, #d9afd9, #a6c1ee);
+	text-align: center;
+	
+}
+
+#DivTable table {
+	float: right;
+	font-size: 30px;
+}
+#art{
+    padding-top:450px;
+    padding-bottom:30px;
+    color: #666666;
+}
+#shop{
+    padding-top:70px;
+    padding-bottom:30px;
+    color: #666666;
+}
+#activity{
+    padding-top:70px;
+    padding-bottom:30px;
+    color: #666666;
+}
+#moreinfo{
+    padding-top:30px;
+    padding-bottom:26px;
+    color: #666666;
+}
+#conta{
+    padding-top:70px;
+    padding-bottom:30px;
+    color: #666666;
+}
+#DivTable table tr td {
+	padding: 20px;
+}
+
+li:hover {
+	background-color: rgba(230, 230, 230, 0.85);
+}
+
+#all {
+	padding-top: 100px;
+}
+
+#head-img {
+	text-align: left;
+	float: left;
+	width: 80px;
+	margin-top: -10px;
+}
+
+#head-p {
+	color: dimgrey;
+}
+
+#welcome {
+	//  width: 1250px;
+	//  height: 400px;
+	position: relative;
+	//  top: 100px;
+	background-color: #f5f5f5;
+}
+
+@font-face {
+	font-family:'amceb';
+	src: url('../font-awesome-4.7.0/fonts/Abadi MT Condensed Extra Bold.ttf');
+    
+}
+@font-face{
+    font-family:'helve';
+	src: url('../font-awesome-4.7.0/fonts/helvetica-light.otf');
+}
+
+#DivP {
+/*	clear: left;*/
+	
+    padding:  0px;
+}
+#DivP>h1{
+    font-family: 'amceb';
+    font-size:42pt;
+    padding: 0px;
+    margin: 0px;
+    text-align:left;
+    
+    
+}
+#DivP>p{
+    font-family: 'helve';
+    font-size:38pt;
+    text-align:left;
+}
+
+#ok {
+	position: relative;
+}
+
+#more {
+	clear: right;
+	position: relative;
+	margin-top: 60px;
+}
+
+#picTable {
+	border: 5px solid;
+	border-color: white;
+}
+
+.click {
+	font-size: 20px;
+	font-family: Microsoft YaHei light;
+    color:#999999;
+	background-color: #E7E7F1;
+	//height: 220px;
+	//max-width: 100%;
+	//width: 260px;
+}
+
+.click:hover {
+	background-color: #f9f9de;
+    font-size: 30px;
+}
+
+.pic {
+	background-color: white;
+}
+
+.img {
+	max-width: 100%;
+	height: 220px;
+}
+
+#ShopTable {
+	border: 5px solid;
+	border-color: white;
+}
+
+.soon {
+	background-color: #E7E7F1;
+	font-size: 20px;
+	font-family: "helve";
+}
+
+.acti {
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	background-color: #f9f9de;
+}
+#dian{
+    color:#666666;
+}
+#read {
+	margin: 0 auto;
+}
+
+#contact {
+	
+	border-radius: 6px;
+	width: 800px;
+	height: 100px;
+	position: relative;
+	margin: 0 auto;
+    color:#666666;
+}
+
+#customize {
+	width: 200px;
+	height: 50px;
+	background-color: #ffffff;
+	border-radius: 6px;
+	position: relative;
+	font-size: 25px;
+	float: left;
+	left: 170px;
+}
+
+#join {
+	width: 200px;
+	height: 50px;
+	background-color:#ffffff;
+	border-radius: 6px;
+	position: relative;
+	float: right;
+	font-size: 25px;
+	right: 170px;
+    margin-bottom:100px;
+}
+#kezhi{
+    padding: 8px;
+}
+
+a:link {
+	color: black;
+	text-decoration:none;
+}
+
+a:visited {
+	color: A6C1EE;
+   
+}
+
+.nn {
+	position: fixed;
+}
+
+.model {
+	width: 100%;
+}
+
+.btn-default {
+	color: white;
+	background-color: palevioletred;
+}
+        /* Footer */
+
+	#footer {
+		color: #ccc;
+		color: rgba(255, 255, 255, 0.45);
+        text-align:center
+	}
+
+		#footer a {
+			color: #ddd;
+			color: rgba(255, 255, 255, 0.65);
+			-moz-transition: color .25s ease-in-out;
+			-webkit-transition: color .25s ease-in-out;
+			-ms-transition: color .25s ease-in-out;
+			transition: color .25s ease-in-out;
+            
+		}
+
+			#footer a:hover {
+				color: white;
+			}
+
+		#footer .copyright li {
+			display: inline-block;
+		}
+
+			#footer .copyright li:before {
+				display: inline;
+				content: '\2022';
+				opacity: 0.5;
+				padding: 0 0.75em 0 0.75em;
+			}
+
+			#footer .copyright li:first-child:before {
+				display: none;
+			}
